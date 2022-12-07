@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Displaying Times and Dates</title>
+<title>Displaying Time and Date</title>
 </head>
 <body>
 <h1>Current Date and Time</h1>
-<script type="text/javascript">
+<script type="pages/index">
 now = new Date();
 localtime = now.toString();
 utctime = now.toGMTString();
