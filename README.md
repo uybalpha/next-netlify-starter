@@ -1,12 +1,11 @@
-# next-netlify-starter
 <!DOCTYPE html>
 <html>
 <head>
-<title>Displaying Time and Date</title>
+<title>Displaying Times and Dates</title>
 </head>
 <body>
 <h1>Current Date and Time</h1>
-<script type="pages/index">
+<script type="text/javascript">
 now = new Date();
 localtime = now.toString();
 utctime = now.toGMTString();
